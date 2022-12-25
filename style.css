@@ -1,0 +1,8 @@
+div{
+    width: 100%;
+    max-width: 200px;
+    height: 80vh;
+border: 5px solid black;
+font-size: 12ps;
+font-weight: 400;
+font-family: sans-serif;
