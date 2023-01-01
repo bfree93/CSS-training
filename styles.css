@@ -1,0 +1,29 @@
+div {
+    font-family: sans-serif;
+    transition: background-color 300ms;
+}
+
+
+div:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+button {
+    font-family: sans-serif;
+    animation: float 2000ms infinite alternate-reverse;
+    transition: all 300ms;
+}
+
+button:hover{
+    background-color: green;
+    color: red;
+}
+
+@keyframes float {
+    0% {
+
+        transform: translateY(0)
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
